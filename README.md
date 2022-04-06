@@ -29,9 +29,15 @@
 
 <div style="display: inline_block" align="center"><br>
   <h3>Linguagens que mais uso:</h3>
-  <img align="center" alt="James-HTML" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="James-CSS" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="center" alt="James-Python" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
+  <abbr title="HTML5">
+    <img align="center" alt="James-HTML" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  </abbr>
+  <abbr title="CSS3">
+    <img align="center" alt="James-CSS" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  </abbr>
+  <abbr title="Python3">
+    <img align="center" alt="James-Python" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
+  </abbr>
 </div>
 
 ##
