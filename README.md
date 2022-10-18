@@ -12,7 +12,7 @@
       </p>
       <ul>
         <li>🔭 Trabalhando em projetos pequenos para melhorar meu entendimento em algumas linguagens</li>
-        <li>📚 Estudando Python, HTML & CSS</li>
+        <li>📚 Estudando Python, HTML, CSS e JavaScript</li>
         <li>💬 Procuro devs também iniciantes para conversar e trocar experiências</li>
         <li>📫 Entre em contado comigo por e-mail em: joamersonislan38@gmail.com ou islan.j@escolar.ifrn.edu.br</li>
       </ul>
@@ -34,6 +34,9 @@
   </abbr>
   <abbr title="CSS3">
     <img align="center" alt="James-CSS" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  </abbr>
+    <abbr title="JavaScript">
+    <img align="center" alt="James-js" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg">
   </abbr>
   <abbr title="Python3">
     <img align="center" alt="James-Python" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
