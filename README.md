@@ -3,10 +3,6 @@
   <img height="40" width="40" src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" alt="mao"/>
   <img height="40" width="40" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/beaming-face-with-smiling-eyes_1f601.png" alt="emoji"/>
 </h1>
-
-<div>
-  <img align="right" height="200" width="200" src="https://i.imgur.com/k7dj7yA.png" alt="imagem"/>
-    <div>
       <p align="justify">
           Tenho 16 anos e sou estudante do curso de Informática no Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte - Campus Currais Novos. Sou um dev junior e um entusiasta da programação, principalmente front-end.
       </p>
