@@ -1,10 +1,9 @@
 
 <h1 align="left"> Opa, Joamerson aqui! 
-  <img height="40" width="40" src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" alt="mao"/>
   <img height="40" width="40" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/beaming-face-with-smiling-eyes_1f601.png" alt="emoji"/>
 </h1>
       <p align="justify">
-          Tenho 16 anos e sou estudante do curso de Informática no Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte - Campus Currais Novos. Sou um dev iniciante e um entusiasta da programação, principalmente back-end.
+          Tenho 17 anos e sou estudante do curso de Informática no Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte - Campus Currais Novos. Sou um dev iniciante e um entusiasta da programação, principalmente back-end.
       </p>
       <ul>
         <li>🔭 Trabalhando em projetos pequenos para melhorar meu entendimento em algumas linguagens</li>
