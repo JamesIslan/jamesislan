@@ -24,7 +24,7 @@
 </div>
 
 <div style="display: inline_block" align="center"><br>
-  <h3>Linguagens que mais uso:</h3>
+  <h3>Tecnologias que mais utilizo:</h3>
   <abbr title="HTML5">
     <img align="center" alt="James-HTML" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   </abbr>
