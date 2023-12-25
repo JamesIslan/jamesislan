@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root{
+  --purple-emphasis: #770bcc;
+  --purple-emphasis-2: #411166;
+  --purple-emphasis-3: rgba(109, 4, 192, 0.60);
+  --purple-background: #2b143d;
+  --white-emphasis: #d7d8e4;
+  --white-lighter: #f0f0ff;
+  --gray-buttons: rgba(31, 28, 41, 75%);
+  --gray-emphasis-1: #a6a7b1;
+  --gray-emphasis-2: #76767d;
+  --default-font: 'Poppins';
+  --text-shadow: 2.53px 2.53px 2.53px rgba(0, 0, 0, 0.25);
+}
+
+/*Estilos Gerais*/
+
+html{font-size: 62.5%;}
+
+body{
+  object-fit: cover;
+  background-image: url(/img/jpg/bg.jpg);
+  margin: 0 calc(180px / 2);
+}
+
+h1, h2, h3, h4, h5, h6, p, span{
+  font-family: var(--default-font);
+  color: var(--white-lighter);
+}
+
+main, section:not(:last-child){
+  /* margin-bottom: 70px; */
+}
+
+
+.text{
+  font-weight: 500;
+  font-style: normal;
+  line-height: normal;
+}
+
+.heading-highlight{
+  color: var(--purple-emphasis);
+}
+
+.nav-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 37.228px;
+  margin-bottom: 20px;
+  position: relative;
+  right: 70px;
+  /* font-family: var(--default-font); */
+  font-weight: 500;
+}
+
+.nav-button{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border: 1.70px solid var(--white-emphasis);
+  border-radius: 13px;
+  padding: 0px 13px;
+  gap: 8.685px;
+  /* color: var(--white-lighter); */
+}
+
+.nav-button > span{
+  position: relative;
+  left: 32px;
+}
+
+.nav-button img {
+  width: 32px;
+  position: absolute;
+  left: 0;
+  transition: left 0.5s ease-in-out;
+}
+
+.nav-button:hover{
+  border-color: var(--purple-emphasis);
+  & span{
+    display: none;
+  }
+}
+
+.nav-button:hover img{
+  left: calc(50% - 32px);
+}
+
+.nav-button#button-home{width: calc(17.8rem / 1.1);}
+
+.nav-button#button-edu{width: calc(26.9rem / 1.1);}
+
+.nav-button#button-tools{width: calc(31.8rem / 1.1);}
+
+.nav-button#button-projects{width: calc(22.4rem / 1.1);}
+
+.nav-button > img{
+  width: 32px;
+}
+
+.nav-button > span{
+  /* font-family: var(--default-font); */
+  line-height: 57px;
+  font-size: 38.234px;
+  transition: all 300ms ease-in-out;
+}
+
+.heading{
+  font-family: var(--default-font);
+  line-height: normal;
+  font-weight: 600;
+  text-shadow: var(--text-shadow);
+  /* color: var(--white-lighter); */
+}
+
+.container-intro{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  font-family: var(--default-font);
+  font-style: normal;
+  line-height: normal;
+  color: var(--white-emphasis);
+  & > img{
+    width: calc(518px / 1.5);
+  }
+  & .heading-info-1{
+    font-size: calc(83px / 1.5);
+    margin: 0;
+    /* & > span{
+      font-size: inherit;
+      color: var(--purple-emphasis);
+    } */
+  }
+  & p#intro-desc{
+    width: 70%;
+    font-size: calc(33px / 1.5);
+    font-weight: 500;
+  }
+  & div#intro-btn-wrapper{
+    display: flex;
+    gap: 30px;
+    & .intro-button{
+      width: calc(104px / 1.5);
+      height: calc(104px / 1.5);
+      background-color: var(--gray-buttons);
+      object-fit: cover;
+      & img{
+        width: 80%;
+        position: relative;
+        top: 10%;
+        left: 10%;
+      }
+    }
+  }
+}
+
+.container-edu{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* margin-top: calc(176px / 1.5); */
+}
+
+.edu-info{
+  /* margin-bottom: 25px; */
+}
+
+div#edu-wrapper-1{
+  margin-bottom: 10px;
+}
+
+.heading-2{font-size: calc(66.58px / 1.5);}
+
+.heading-3{
+  font-size: calc(44px / 1.5);
+}
+
+.edu-info{
+  border-left: 4px solid var(--purple-emphasis);
+  /* border-radius: 2px; */
+  padding-left: 10px;
+}
+
+.heading-4{
+  font-size: calc(30px / 1.5);
+  /* margin-top: calc(10px / 4); */
+}
+
+.heading-5{
+  font-size: calc(22px / 1.5);
+  color: var(--gray-emphasis-1);
+}
+
+.heading-6{
+  font-size: calc(22px / 1.5);
+  color: var(--gray-emphasis-2);
+}
+
+/*Ferramentas*/
+
+.tools-wrapper{
+  display: flex;
+  /* justify-content: center; */
+  /* align-content: center; */
+}
+
+.container-tool{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.tool-icon{
+  width: 23.4%;
+}
+
+.tool-label{
+  display: none;
+}
+
+/*Experiências Profissionais*/
+
+.text-xp{
+  font-size: calc(3.3rem / 1.5);
+}
+
+/*Projetos*/
+
+.container-projects{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  
+}
+
+.project{
+  display: flex;
+  align-items: center;
+}
+
+.project-container-left{
+  width: calc(744px / 1.5);
+  height: calc(372px / 1.5);
+  padding: calc(30px / 1.5);
+  border-radius: calc(30px / 1.5);
+  background-color: var(--purple-emphasis-2);
+}
+
+.project-img{
+  width: 100%;
+  border-radius: 1.5rem;
+}
+
+.project-text{
+  font-weight: 600;
+  font-size: calc(22.58px / 1.5);
+  word-wrap: break-word;
+}
+
+.project-container-right{
+  display: flex;
+  flex-direction: column;
+  padding: 1.31rem 2rem 0 2rem;
+  background-color: var(--purple-emphasis-2);
+  border-radius: 0 calc(20px / 1.5) calc(20px / 1.5) 0;
+  width: calc(696px / 1.5);
+  height: calc(330px / 1.5);
+  
+}
+
+.project-heading-4{
+  font-size: calc(3.45rem / 1.5);
+  margin-bottom: calc(10px / 1.5);
+  /* font-style: normal;
+  line-height: normal; */
+}
+
+.project-heading-5{
+  font-size: calc(2.85rem / 1.5);
+  margin: calc(20px / 1.5) 0;
+}
+
+.project-button{
+  /* position: relative; */
+  display: flex;
+  align-items: center;
+  background-color: var(--purple-emphasis);
+  width: calc(35.1rem / 1.5);
+  height: calc(5.6rem / 1.5);
+  flex-shrink: 0;
+  padding: 0;
+  border: 0;
+  border-radius: calc(3rem / 1.5);
+}
+
+.project-button-top{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(5.6rem / 1.5);
+  height: calc(5.6rem / 1.5);
+  gap: calc(2.6rem / 1.5);
+  /* flex-shrink: 0; */
+  border-radius: inherit;
+  background-color: var(--purple-emphasis-3);
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.25);
+}
+
+.project-button-top > img{
+  width: 60%;
+}
+
+.project-button-label{
+  font-size: calc(2rem / 1.5);
+  font-weight: 600;
+}
