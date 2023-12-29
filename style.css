@@ -5,6 +5,7 @@
   --purple-emphasis-2: #411166;
   --purple-emphasis-3: rgba(109, 4, 192, 0.60);
   --purple-background: #2b143d;
+  --purple-footer: rgba(69, 32, 99, 0.30);
   --white-emphasis: #d7d8e4;
   --white-lighter: #f0f0ff;
   --gray-buttons: rgba(31, 28, 41, 75%);
@@ -21,7 +22,7 @@ html{font-size: 62.5%;}
 body{
   object-fit: cover;
   background-image: url(/img/jpg/bg.jpg);
-  margin: 0 calc(180px / 2);
+  /* margin: 0 calc(180px / 2); */
 }
 
 h1, h2, h3, h4, h5, h6, p, span{
@@ -29,10 +30,34 @@ h1, h2, h3, h4, h5, h6, p, span{
   color: var(--white-lighter);
 }
 
+:is(h1, h2, h3, h4, h5, h6) span{color: var(--purple-emphasis);}
+
+.heading-2{font-size: calc(6.65rem / 1.5);}
+  
+.heading-3{font-size: calc(4.4rem / 1.5);}
+
+.heading-4{
+  font-size: calc(3rem / 1.5);
+  /* margin-top: calc(10px / 4); */
+}
+
+.heading-5{
+  font-size: calc(2.2rem / 1.5);
+  color: var(--gray-emphasis-1);
+}
+
+.heading-6{
+  font-size: calc(2.2rem / 1.5);
+  color: var(--gray-emphasis-2);
+}
+
 main, section:not(:last-child){
   /* margin-bottom: 70px; */
 }
 
+main, section{
+  margin: 0 calc(18rem / 1.5);
+}
 
 .text{
   font-weight: 500;
@@ -40,74 +65,56 @@ main, section:not(:last-child){
   line-height: normal;
 }
 
-.heading-highlight{
-  color: var(--purple-emphasis);
-}
+/* .heading-highlight{color: var(--purple-emphasis);} */
 
 .nav-bar{
   display: flex;
-  flex-direction: row;
   justify-content: flex-end;
-  gap: 37.228px;
-  margin-bottom: 20px;
+  gap: calc(7.5rem / 1.5);
+  margin: calc(3.6rem / 1.5);
   position: relative;
   right: 70px;
-  /* font-family: var(--default-font); */
   font-weight: 500;
 }
 
 .nav-button{
-  position: relative;
   display: flex;
-  align-items: center;
   justify-content: flex-start;
+  position: relative;
+  align-items: center;
   border: 1.70px solid var(--white-emphasis);
   border-radius: 13px;
   padding: 0px 13px;
-  gap: 8.685px;
-  /* color: var(--white-lighter); */
-}
+  gap: calc(3.72rem / 1.5);
+  
+  &#button-home{width: calc(17.8rem / 1.1);}
+  &#button-edu{width: calc(26.9rem / 1.1);}
+  &#button-tools{width: calc(31.8rem / 1.1);}
+  &#button-projects{width: calc(22.4rem / 1.1);}
 
-.nav-button > span{
-  position: relative;
-  left: 32px;
-}
-
-.nav-button img {
-  width: 32px;
-  position: absolute;
-  left: 0;
-  transition: left 0.5s ease-in-out;
-}
-
-.nav-button:hover{
-  border-color: var(--purple-emphasis);
-  & span{
-    display: none;
+  & > span{
+    position: relative;
+    left: 32px;
+    line-height: normal;
+    font-size: 38.234px;
+    transition: all 300ms ease-in-out;
   }
-}
 
-.nav-button:hover img{
-  left: calc(50% - 32px);
-}
+  & > img{
+    width: 32px;
+    position: absolute;
+    left: 0;
+    transition: left 0.5s ease-in-out;
+  }
 
-.nav-button#button-home{width: calc(17.8rem / 1.1);}
+  &:hover{
+    border-color: var(--purple-emphasis);
+    & span{
+      display: none;
+    }
 
-.nav-button#button-edu{width: calc(26.9rem / 1.1);}
-
-.nav-button#button-tools{width: calc(31.8rem / 1.1);}
-
-.nav-button#button-projects{width: calc(22.4rem / 1.1);}
-
-.nav-button > img{
-  width: 32px;
-}
-
-.nav-button > span{
-  /* font-family: var(--default-font); */
-  line-height: 57px;
-  font-size: 38.234px;
-  transition: all 300ms ease-in-out;
+    & img{left: calc(50% - 32px);}
+  }
 }
 
 .heading{
@@ -115,7 +122,6 @@ main, section:not(:last-child){
   line-height: normal;
   font-weight: 600;
   text-shadow: var(--text-shadow);
-  /* color: var(--white-lighter); */
 }
 
 .container-intro{
@@ -126,37 +132,30 @@ main, section:not(:last-child){
   font-style: normal;
   line-height: normal;
   color: var(--white-emphasis);
-  & > img{
-    width: calc(518px / 1.5);
-  }
-  & .heading-info-1{
-    font-size: calc(83px / 1.5);
-    margin: 0;
-    /* & > span{
-      font-size: inherit;
-      color: var(--purple-emphasis);
-    } */
-  }
+
+  & > img{width: calc(45rem / 1.5);}
+
+  & .heading-info-1{font-size: calc(83px / 1.5);}
+
   & p#intro-desc{
     width: 70%;
-    font-size: calc(33px / 1.5);
+    font-size: calc(3.3rem / 1.5);
     font-weight: 500;
   }
-  & div#intro-btn-wrapper{
+}
+
+.container-intro .btn-wrapper{
+  display: flex;
+  gap: 30px;
+  & .intro-button{
     display: flex;
-    gap: 30px;
-    & .intro-button{
-      width: calc(104px / 1.5);
-      height: calc(104px / 1.5);
-      background-color: var(--gray-buttons);
-      object-fit: cover;
-      & img{
-        width: 80%;
-        position: relative;
-        top: 10%;
-        left: 10%;
-      }
-    }
+    justify-content: center;
+    width: calc(104px / 1.5);
+    height: calc(104px / 1.5);
+    background-color: var(--gray-buttons);
+    object-fit: cover;
+
+    & img{width: 80%;}
   }
 }
 
@@ -164,21 +163,8 @@ main, section:not(:last-child){
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  /* margin-top: calc(176px / 1.5); */
-}
 
-.edu-info{
-  /* margin-bottom: 25px; */
-}
-
-div#edu-wrapper-1{
-  margin-bottom: 10px;
-}
-
-.heading-2{font-size: calc(66.58px / 1.5);}
-
-.heading-3{
-  font-size: calc(44px / 1.5);
+  & #edu-wrapper-1{margin-bottom: 10px;}
 }
 
 .edu-info{
@@ -187,20 +173,7 @@ div#edu-wrapper-1{
   padding-left: 10px;
 }
 
-.heading-4{
-  font-size: calc(30px / 1.5);
-  /* margin-top: calc(10px / 4); */
-}
 
-.heading-5{
-  font-size: calc(22px / 1.5);
-  color: var(--gray-emphasis-1);
-}
-
-.heading-6{
-  font-size: calc(22px / 1.5);
-  color: var(--gray-emphasis-2);
-}
 
 /*Ferramentas*/
 
@@ -234,12 +207,15 @@ div#edu-wrapper-1{
 
 /*Projetos*/
 
-.container-projects{
+.projects-wrapper, .container-projects{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 40px;
-  
+}
+
+.projects-wrapper{
+  margin-bottom: calc(15.7rem / 1.5);
 }
 
 .project{
@@ -291,6 +267,7 @@ div#edu-wrapper-1{
 
 .project-button{
   /* position: relative; */
+  gap: 1.3rem;
   display: flex;
   align-items: center;
   background-color: var(--purple-emphasis);
@@ -322,4 +299,32 @@ div#edu-wrapper-1{
 .project-button-label{
   font-size: calc(2rem / 1.5);
   font-weight: 600;
+}
+
+/*Footer*/
+footer{
+  display: flex;
+  justify-content: center;
+  gap: calc(75rem / 1.5);
+  align-items: center;
+  width: 100%;
+  height: calc(9rem / 1.5);
+  padding: calc(1rem / 1.5) 0;
+  background-color: var(--purple-footer);
+}
+
+#footer-info{
+  /* flex: 1 */
+  color: var(--white-lighter);
+  font-family: var(--default-font);
+  font-weight: 600;
+  font-size: calc(3.13rem / 1.5);
+}
+
+/* #footer-button-github{
+  flex: 2;
+} */
+
+#github-icon-footer{
+  filter: brightness(0) saturate(100%) invert(100%) sepia(47%) saturate(3314%) hue-rotate(180deg) brightness(108%) contrast(104%);
 }
