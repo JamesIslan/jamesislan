@@ -12,21 +12,30 @@
   --gray-emphasis-1: #a6a7b1;
   --gray-emphasis-2: #76767d;
   --default-font: 'Poppins';
+  --button-shadow: 14px 16px 19px -3px rgba(0,0,0,0.3);
   --text-shadow: 2.53px 2.53px 2.53px rgba(0, 0, 0, 0.25);
 }
 
 /*Estilos Gerais*/
 
-html{font-size: 62.5%;}
+html{
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
 
 body{
-  object-fit: cover;
-  background-image: url(/img/jpg/bg.jpg);
+  /* object-fit: cover; */
+  /* background-image: url(/img/jpg/bg.jpg); */
+  background-image: url(./img/jpg/bg2x.jpg);
 }
 
 h1, h2, h3, h4, h5, h6, p, span{
   font-family: var(--default-font);
   color: var(--white-lighter);
+}
+
+a{
+  text-decoration: none;
 }
 
 :is(h1, h2, h3, h4, h5, h6) span{color: var(--purple-emphasis);}
@@ -92,7 +101,8 @@ main, section{
 }
 
 .nav-button > img{
-  width: 32px;
+  /* width: 32px; */
+  width: clamp(2rem,2.5vw,3.2rem);
   position: absolute;
   left: 1.3rem;
   transition: left 0.5s ease-in-out;
@@ -103,19 +113,9 @@ main, section{
   right: 0;
   left: 1.3rem;
   line-height: normal;
-  font-size: 3.1rem;
+  /* font-size: 3.1rem; */
+  font-size: clamp(2.2rem,2vw,3.1rem);
   transition: opacity 350ms ease-in-out;
-}
-
-.nav-button:hover{
-  border-color: var(--purple-emphasis);
-  & img{
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  & span{
-    opacity: 0;
-  }
 }
 
 .heading{
@@ -232,19 +232,16 @@ main, section{
 
 /*Projetos*/
 
-.projects-wrapper, .container-projects{
+.container-projects{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 40px;
+  margin-bottom: calc(15.7rem / 1.5);
 }
 
 .container-projects{
   max-width: 100%;
-}
-
-.projects-wrapper{
-  margin-bottom: calc(15.7rem / 1.5);
 }
 
 .project{
@@ -302,15 +299,25 @@ main, section{
   gap: 1.3rem;
   display: flex;
   align-items: center;
-  position: absolute;
-  bottom: 1rem;
+  /* position: absolute; */
+  /* bottom: 1rem; */
+  cursor: pointer;
   background-color: var(--purple-emphasis);
-  width: calc(35.1rem / 1.5);
-  height: calc(5.6rem / 1.5);
+  width: 24rem;
+  /* height: calc(5.6rem / 1.5); */
+  height: 3.7rem;
   flex-shrink: 0;
   padding: 0;
   border: 0;
-  border-radius: calc(3rem / 1.5);
+  /* border-radius: calc(3rem / 1.5); */
+  border-radius: 2rem;
+  transition: box-shadow 0.3s ease-in-out, transform 0.1s ease-in-out;
+  &:hover{
+    box-shadow: var(--button-shadow);
+  }
+  &:active{
+    transform: translateY(2px);
+  }
 }
 
 .project-button-top{
@@ -332,26 +339,30 @@ main, section{
 .project-button-label{
   font-size: calc(2rem / 1.5);
   font-weight: 600;
+  transition: text-shadow 0.3s ease-in-out;
+  &:hover{
+    text-shadow: 2.53px 2.53px 2.53px rgba(0, 0, 0, 0.25);;
+  }
 }
 
 /*Footer*/
 footer{
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   width: 100%;
   max-width: 100%;
   height: calc(9rem / 1.5);
-  padding: calc(1rem / 1.5) 2rem;
+  /* padding: calc(1rem / 1.5) 2rem; */
   background-color: var(--purple-footer);
 }
 
 #footer-info{
-  flex: 1;
+  /* flex: 1; */
   color: var(--white-lighter);
   font-family: var(--default-font);
   font-weight: 600;
-  font-size: clamp(1.4rem,2.5vw,3rem);
+  font-size: clamp(1.4rem,2vw,2.5rem);
 }
 
 #footer-button-github{
@@ -362,7 +373,34 @@ footer{
   filter: brightness(0) saturate(100%) invert(100%) sepia(47%) saturate(3314%) hue-rotate(180deg) brightness(108%) contrast(104%);
 }
 
+@media screen and (min-width: 901px) {
+  .nav-button:hover{
+    border-color: var(--purple-emphasis);
+    & img{
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    & span{
+      opacity: 0;
+    }
+  }
+}
+
 @media screen and (max-width: 900px) {
+  /*Botoes*/
+  .nav-button{
+    width: auto !important;
+    padding: 1.5rem;
+    & img{
+      position: static;
+    }
+    & span{
+      display: none;
+      position: static;
+    }
+  }
+
+
   .container-intro{
     flex-direction: column;
   }
@@ -413,8 +451,11 @@ footer{
 }
 
 @media screen and (max-width: 500px) {
-  .nav-button{
+  /* .nav-button{
     border: none;
+  } */
+  footer{
+    padding: calc(0.5rem / 1.5) 2rem;
   }
   .nav-label{
     display: none;
