@@ -475,12 +475,9 @@ footer {
   .nav-button {
     border: none;
   }
-
-  footer {
-    padding: calc(0.5rem / 1.5) 2rem;
-    & #footer-info{
-      flex-basis: 40%;
-    }
+  
+  #footer-info{
+    flex-basis: 40%;
   }
 
   .nav-label {
