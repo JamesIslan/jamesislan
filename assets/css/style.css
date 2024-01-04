@@ -313,6 +313,8 @@ a {
   display: flex;
   align-items: center;
   cursor: pointer;
+  position: absolute;
+  bottom: 1.5rem;
   background-color: var(--purple-emphasis);
   width: 24rem;
   height: 3.7rem;
@@ -475,7 +477,7 @@ footer {
   .nav-button {
     border: none;
   }
-  
+
   #footer-info{
     flex-basis: 40%;
   }
