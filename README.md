@@ -4,7 +4,7 @@
   <img height="40" width="40" src="https://em-content.zobj.net/source/microsoft-teams/337/beaming-face-with-smiling-eyes_1f601.png" alt="smiling emoji"/>
 </h1>
       <p align="justify">
-          Tenho 17 anos e sou estudante do curso de Informática no Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte - Campus Currais Novos. Sou um dev iniciante e um entusiasta da programação, principalmente back-end.
+          Tenho 18 anos e sou estudante do curso de Informática no Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte - Campus Currais Novos. Sou um dev iniciante e um entusiasta da programação, principalmente back-end.
       </p>
       <ul>
         <li>🔭 Trabalhando em projetos pequenos para melhorar meu entendimento em algumas linguagens</li>
