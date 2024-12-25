@@ -1,52 +1,28 @@
-<head>
-  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />        
-</head>
+# Opa, Joamerson aqui! <img display="inline" height="50" width="50" src="https://em-content.zobj.net/source/microsoft-teams/337/waving-hand_1f44b.png" alt="waving hand"> <img display="inline" height="50" width="50" src="https://em-content.zobj.net/source/microsoft-teams/337/beaming-face-with-smiling-eyes_1f601.png" alt="smiling emoji"/>
+![Image](https://i.imgur.com/oZIw2Sx.png)
 
-<h1 align="left"> Opa, Joamerson aqui! 
-  <img height="40" width="40" src="https://em-content.zobj.net/source/microsoft-teams/337/waving-hand_1f44b.png" alt="waving hand">
-  <img height="40" width="40" src="https://em-content.zobj.net/source/microsoft-teams/337/beaming-face-with-smiling-eyes_1f601.png" alt="smiling emoji"/>
-</h1>
-<img width="100%" src="https://i.imgur.com/oZIw2Sx.png">
-      <p align="justify">
-          Tenho 18 anos e sou estudante do curso de Informática no Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte - Campus Currais Novos. Sou um dev iniciante e um entusiasta da programação, principalmente back-end.
-      </p>
-      <ul>
-        <li>🔭 Trabalhando em projetos pequenos para melhorar meu entendimento em algumas linguagens</li>
-        <li>📚 Estudando Python, HTML, CSS e JavaScript</li>
-        <li>💬 Procuro devs também iniciantes para conversar e trocar experiências</li>
-        <li>📫 Entre em contado comigo por e-mail em: joamersonislan38@gmail.com ou islan.j@escolar.ifrn.edu.br</li>
-      </ul>
-    </div>
+Tenho 18 anos e sou estudante do curso de Informática no Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte - Campus Currais Novos. Sou um dev iniciante e um entusiasta da programação, principalmente back-end.
+- 🔭 Trabalhando em projetos pequenos para melhorar meu entendimento em algumas linguagens
+- 📚 Atualmente estudando a linguagem C e o framework Django
+- 💬 Procuro devs também iniciantes para conversar e trocar experiências
+- 📫 Entre em contado comigo por e-mail em: joamersonislan38@gmail.com ou islan.j@escolar.ifrn.edu.br
+
+<div display="flex">
+
+<div>
+  <h2 align="center">Tecnologias que mais utilizo</h2>
+  <div align="center">
+    <img src="https://skillicons.dev/icons?i=html,css,js,nodejs,py,django,c"/>
+  </div>
 </div>
 
-##
-
-
-<div align="center">
-  <a href="https://github.com/jamesislan">
-  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=jamesislan&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
+<div>
+  <h2 align="center">Ferramentas que mais utilizo</h2>
+  <div align="center">
+    <img src="https://skillicons.dev/icons?i=figma,mysql,git,vscode,raspberrypi"/>
+  </div>
 </div>
 
-<div style="display: inline_block" align="center"><br>
-  <h3>Tecnologias que mais utilizo:</h3>
-  <abbr title="HTML5">
-    <img align="center" alt="James-HTML" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  </abbr>
-  <abbr title="CSS3">
-    <img align="center" alt="James-CSS" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  </abbr>
-    <abbr title="JavaScript">
-    <img align="center" alt="James-js" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg">
-  </abbr>
-  <abbr title="Python3">
-    <img align="center" alt="James-Python" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
-  </abbr>
-  <abbr title="Django">
-    <i class="devicon-django-plain"></i>
-  </abbr>
-  <abbr title="C">
-    <img align="center" alt="James-C" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg">
-  </abbr>    
 </div>
 <br>
 <div align="center"> 
