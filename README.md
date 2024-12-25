@@ -37,9 +37,6 @@
   <abbr title="Python3">
     <img align="center" alt="James-Python" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
   </abbr>
-  <abbr title="Django">
-    <img align="center" alt="James-Django" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/refs/heads/master/icons/django/django-plain.svg>
-  </abbr>
   <abbr title="C">
     <img align="center" alt="James-C" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg">
   </abbr>
