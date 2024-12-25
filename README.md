@@ -6,6 +6,7 @@
   <img height="40" width="40" src="https://em-content.zobj.net/source/microsoft-teams/337/waving-hand_1f44b.png" alt="waving hand">
   <img height="40" width="40" src="https://em-content.zobj.net/source/microsoft-teams/337/beaming-face-with-smiling-eyes_1f601.png" alt="smiling emoji"/>
 </h1>
+<img width="100%" src="https://i.imgur.com/oZIw2Sx.png">
       <p align="justify">
           Tenho 18 anos e sou estudante do curso de Informática no Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte - Campus Currais Novos. Sou um dev iniciante e um entusiasta da programação, principalmente back-end.
       </p>
@@ -54,4 +55,4 @@
   <a href="https://www.linkedin.com/in/joamerson-islan-29719022b/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 </div>
 <br>
-<img width="100%" src="https://i.imgur.com/oZIw2Sx.png">
+
