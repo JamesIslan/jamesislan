@@ -1,7 +1,7 @@
 # Opa, Joamerson aqui! <img display="inline" height="50" width="50" src="https://em-content.zobj.net/source/microsoft-teams/337/waving-hand_1f44b.png" alt="waving hand"> <img display="inline" height="50" width="50" src="https://em-content.zobj.net/source/microsoft-teams/337/beaming-face-with-smiling-eyes_1f601.png" alt="smiling emoji"/>
 ![Image](https://i.imgur.com/oZIw2Sx.png)
 
-Tenho 18 anos e sou estudante do curso de Informática no Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte - Campus Currais Novos. Sou um dev iniciante e um entusiasta da programação, principalmente back-end.
+Tenho 18 anos, sou Desenvolvedor de Software, técnico em Informática pelo IFRN e graduando em Tecnologia da Informação pela UFRN. Sou um entusiasta da programação, principalmente back-end.
 - 🔭 Trabalhando em projetos pequenos para melhorar meu entendimento em algumas linguagens
 - 📚 Atualmente estudando a linguagem C e o framework Django
 - 💬 Procuro devs também iniciantes para conversar e trocar experiências
